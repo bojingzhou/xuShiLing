@@ -25,17 +25,17 @@
 		<view class="example-body">
 			<uni-notice-bar :show-icon="true" :scrollable="true" text="8月12日DCloud受邀参加iWEB峰会后，9月19日DCloud CEO 王安在千人小程序峰会——见实大会，做了主题为《App和小程序，鱼与熊掌如何兼得？》的分享。" />
 		</view>
-		<uni-section title="快捷入口" type="line"></uni-section>
+		<!-- <uni-section title="快捷入口" type="line"></uni-section>
 		<view class="example-body">
-			<uni-grid :column="3" :highlight="true" @change="changeGrid">
+			<uni-grid :column="3" :highlight="true" >
 				<uni-grid-item v-for="(item, index) in list" :index="index" :key="index">
-					<view class="grid-item-box" style="background-color: #fff;">
+					<view class="grid-item-box" style="background-color: #fff;" @click="goToPage(index)">
 						<image :src="item.url" class="image" mode="aspectFill" />
 						<text class="text">{{ item.text }}</text>
 					</view>
 				</uni-grid-item>
 			</uni-grid>
-		</view>
+		</view> -->
 
 	</view>
 </template>
@@ -72,43 +72,43 @@
 				//
 				list: [{
 						url: '/static/c1.png',
-						text: 'Grid 1',
+						text: '祈福',
 						badge: '0',
 						type: "primary"
 					},
 					{
 						url: '/static/c2.png',
-						text: 'Grid 2',
+						text: '周公解梦',
 						badge: '1',
 						type: "success"
 					},
 					{
 						url: '/static/c3.png',
-						text: 'Grid 3',
+						text: '面相借鉴',
 						badge: '99',
 						type: "warning"
 					},
 					{
 						url: '/static/c4.png',
-						text: 'Grid 4',
+						text: '风水浅析',
 						badge: '2',
 						type: "error"
 					},
 					{
 						url: '/static/c5.png',
-						text: 'Grid 5'
+						text: '为人处世'
 					},
 					{
 						url: '/static/c6.png',
-						text: 'Grid 6'
+						text: '心灵鸡汤'
 					},
 					{
 						url: '/static/c7.png',
-						text: 'Grid 7'
+						text: '历史借鉴'
 					},
 					{
 						url: '/static/c8.png',
-						text: 'Grid 8'
+						text: '每日运势'
 					},
 					{
 						url: '/static/c9.png',
@@ -144,7 +144,7 @@
 					icon: 'none'
 				})
 			},
-
+			
 		}
 	}
 </script>

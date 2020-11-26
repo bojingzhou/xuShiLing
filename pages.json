@@ -51,6 +51,70 @@
 			}
 		},
 		{
+			"path": "pages/tabBar/Promise/Promise",
+			"style": {
+				"navigationBarTitleText": "祈福",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/Life/Life",
+			"style": {
+				"navigationBarTitleText": "为人处世",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/Dream/Dream",
+			"style": {
+				"navigationBarTitleText": "周公解梦",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/Heart/Heart",
+			"style": {
+				"navigationBarTitleText": "心灵鸡汤",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
 			"path": "pages/tabBar/template/template",
 			"style": {
 				"navigationBarTitleText": "模版",
@@ -1119,6 +1183,26 @@
 					}
 				},
 				{
+					"path": "Life/LifeDetail",
+					"style": {
+						"navigationBarTitleText": "详情",
+						"app-plus": {
+							"titleNView": {
+								"type": "transparent",
+								"buttons": [{
+									"type": "share"
+								}]
+							}
+						},
+						"h5": {
+							"titleNView": {
+								"type": "transparent",
+								"buttons": []
+							}
+						}
+					}
+				},
+				{
 					"path": "tabbar/tabbar",
 					"style": {
 						"navigationBarTitleText": "可拖动顶部选项卡"
@@ -1224,7 +1308,30 @@
 				"iconPath": "static/template.png",
 				"selectedIconPath": "static/templateHL.png",
 				"text": "Zjb"
+			},{
+				"pagePath": "pages/tabBar/Promise/Promise",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "祈福"
+			},{
+				"pagePath": "pages/tabBar/Life/Life",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "为人处世"
+			},
+			{
+				"pagePath": "pages/tabBar/Dream/Dream",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "周公解梦"
+			},
+			{
+				"pagePath": "pages/tabBar/Heart/Heart",
+				"iconPath": "static/template.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "心灵鸡汤"
 			}
+			
 		]
 	}
 }
